@@ -147,25 +147,25 @@ const Navigation = () => {
           </a>
 
           <ThemeSwitch />
-          <div className="space-x-4 block md:hidden mt-2 ml-2">
-            <Link href="/about">
-              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-                About
-              </a>
-            </Link>
-            <Link href="/projects">
-              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-                Projects
-              </a>
-            </Link>
-
-            <Link href="/contact">
-              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-                Contact
-              </a>
-            </Link>
-          </div>
         </div>
+      </div>
+      <div className="space-x-8 block md:hidden mt-4 mx-6">
+        <Link href="/about">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            About
+          </a>
+        </Link>
+        <Link href="/projects">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            Projects
+          </a>
+        </Link>
+
+        <Link href="/contact">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            Contact
+          </a>
+        </Link>
       </div>
     </div>
   );
