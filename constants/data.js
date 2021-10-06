@@ -82,7 +82,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/file/d/1nFKlztAyvgUVM2eQajejXDg3DRjs1Qiy/view?usp=sharing",
   socialLinks: {
     instagram: "https://www.instagram.com/abir_salekin/",
     linkedin: "https://www.linkedin.com/in/salekin-imran-b2354349/",

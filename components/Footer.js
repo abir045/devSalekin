@@ -9,7 +9,7 @@ const Footer = () => {
           <p>Built with Next.js, Tailwind and Vercel</p>
           <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
             <a
-              href="#"
+              href="https://twitter.com/SalekinI"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -17,7 +17,7 @@ const Footer = () => {
               Twitter
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/salekin-imran-b2354349/"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
@@ -25,36 +25,12 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/abir045"
               className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="#"
-              className={"transition-colors hover:text-yellow-500"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Medium
-            </a>
-            <a
-              href="#"
-              className={"transition-colors hover:text-yellow-500"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              DEV
-            </a>
-            <a
-              href="#"
-              className={"transition-colors hover:text-yellow-500"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              Hashnode
             </a>
           </div>
         </div>
