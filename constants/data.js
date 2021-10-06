@@ -15,7 +15,7 @@ const userData = {
     {
       title: "Pearson Airport Limousiness",
       link: "https://pearsonairportlimousines.com/",
-      imgUrl: "/pearson.jpg",
+      imgUrl: "/pearson.JPG",
     },
     {
       title: "Alvaro",
