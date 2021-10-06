@@ -25,7 +25,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications",
+      "I'm a software developer who loves building products and web applications",
     description: [
       `I am a frontend developer with a passion to build dynamic products
               with the most updated technologies.Currently I am working as a
