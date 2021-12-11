@@ -22,6 +22,11 @@ const userData = {
       link: "https://demostore2.herokuapp.com/",
       imgUrl: "/alvaro.JPG",
     },
+    {
+      title: "Outlaws",
+      link: "https://github.com/abir045/Outlaws-Ecommerce",
+      imgUrl: "/outlaws.png",
+    },
   ],
   about: {
     title:
@@ -34,8 +39,8 @@ const userData = {
               contributing to open source in my free time. New to Next.js,
               Tailwindcss.`,
     ],
-    currentProject: "Alvaro",
-    currentProjectUrl: "https://demostore2.herokuapp.com/",
+    currentProject: "Outlaws",
+    currentProjectUrl: "https://github.com/abir045/Outlaws-Ecommerce",
   },
   experience: [
     {
