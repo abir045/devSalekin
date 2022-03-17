@@ -8,29 +8,31 @@ const userData = {
   address: "Uttara, Dhaka, Bangladesh.",
   projects: [
     {
-      title: "Covid-19 Dashboard",
-      link: "https://abir045.github.io/covid19/",
-      imgUrl: "/covid-19.jpg",
+      title: "CryptoWorld",
+      link: "https://world-of-crypto.netlify.app/",
+      imgUrl: "/crypto.png",
     },
+
     {
       title: "Pearson Airport Limousiness",
       link: "https://pearsonairportlimousines.com/",
       imgUrl: "/pearson.JPG",
     },
-    {
-      title: "Alvaro",
-      link: "https://demostore2.herokuapp.com/",
-      imgUrl: "/alvaro.JPG",
-    },
+
     {
       title: "Outlaws",
       link: "https://github.com/abir045/Outlaws-Ecommerce",
       imgUrl: "/outlaws.png",
     },
+    {
+      title: "Covid-19 Dashboard",
+      link: "https://abir045.github.io/covid19/",
+      imgUrl: "/covid-19.jpg",
+    },
   ],
   about: {
     title:
-      "I'm a software developer who loves building products and web applications",
+      "I'm a web developer who loves building products and web applications",
     description: [
       `I am a frontend developer with a passion to build dynamic products
               with the most updated technologies.Currently I am working as a
@@ -39,8 +41,8 @@ const userData = {
               contributing to open source in my free time. New to Next.js,
               Tailwindcss.`,
     ],
-    currentProject: "Outlaws",
-    currentProjectUrl: "https://github.com/abir045/Outlaws-Ecommerce",
+    currentProject: "CryptoWorld",
+    currentProjectUrl: "https://world-of-crypto.netlify.app/",
   },
   experience: [
     {
