@@ -32,7 +32,7 @@ const Navigation = () => {
         <div className="flex flex-row">
           <Link href="/">
             <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
+              <h1 className="font-bold  text-2xl dark:text-gray-100">
                 {userData.name}
               </h1>
               {/* <p className="text-base font-light text-gray-500 dark:text-gray-300">
