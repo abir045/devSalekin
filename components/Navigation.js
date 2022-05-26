@@ -15,6 +15,7 @@ const Navigation = () => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [toggle, setToggle] = useState(false);
+  const [closed, setClosed] = useState(false);
 
   const handleToggle = () => {
     setToggle(!toggle);
@@ -166,87 +167,89 @@ const Navigation = () => {
         </div>
 
         {/* mobile menu */}
-        <div className="absolute flex flex-col items-center h-[300px] w-[200px] opacity-70 p-8 space-y-8 mt-10 font-bold right-0 top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
-          <Link href="/projects">
-            <a
-              className={`text-base  ${
-                router.asPath === "/projects"
-                  ? "text-gray-800 font-bold p-4 dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
-              Projects
-              {router.asPath === "/projects" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
-          </Link>
-          <Link href="/about">
-            <a
-              className={`text-base  ${
-                router.asPath === "/about"
-                  ? "text-gray-800 font-bold p-4 dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
-              About
-              {router.asPath === "/about" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a
-              className={`text-base  ${
-                router.asPath === "/contact"
-                  ? "text-gray-800 font-bold p-4 dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
-              }`}
-            >
-              Contact
-              {router.asPath === "/contact" && (
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-down inline-block h-3 w-3"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
-                  />
-                </svg>
-              )}
-            </a>
-          </Link>
-          <ThemeSwitch />
-        </div>
+        {toggle && (
+          <div className="absolute flex flex-col items-center h-[300px] w-full opacity-90 p-8 space-y-8 mt-10 font-bold  right-0 top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
+            <Link href="/projects">
+              <a
+                className={`text-2xl  ${
+                  router.asPath === "/projects"
+                    ? "text-gray-900 font-bold p-4 dark:text-gray-400"
+                    : "text-gray-600 dark:text-gray-300 font-normal "
+                }`}
+              >
+                Projects
+                {router.asPath === "/projects" && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-arrow-down inline-block h-3 w-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                    />
+                  </svg>
+                )}
+              </a>
+            </Link>
+            <Link href="/about">
+              <a
+                className={`text-2xl  ${
+                  router.asPath === "/about"
+                    ? "text-gray-800 font-bold p-4 dark:text-gray-400"
+                    : "text-gray-600 dark:text-gray-300 font-normal "
+                }`}
+              >
+                About
+                {router.asPath === "/about" && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-arrow-down inline-block h-3 w-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                    />
+                  </svg>
+                )}
+              </a>
+            </Link>
+            <Link href="/contact">
+              <a
+                className={`text-2xl  ${
+                  router.asPath === "/contact"
+                    ? "text-gray-800 font-bold p-4 dark:text-gray-400"
+                    : "text-gray-600 dark:text-gray-300 font-normal "
+                }`}
+              >
+                Contact
+                {router.asPath === "/contact" && (
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    className="bi bi-arrow-down inline-block h-3 w-3"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                    />
+                  </svg>
+                )}
+              </a>
+            </Link>
+            <ThemeSwitch />
+          </div>
+        )}
       </div>
     </div>
   );
