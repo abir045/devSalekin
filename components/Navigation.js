@@ -122,7 +122,7 @@ const Navigation = () => {
           </Link>
         </div>
         {/* social links + themeswitch */}
-        <div className="hidden md:flex  space-x-6  items-center">
+        <div className="hidden sm:flex  space-x-6  items-center">
           <a
             href={userData.socialLinks.instagram}
             target="_blank"
