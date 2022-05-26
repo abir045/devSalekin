@@ -32,14 +32,13 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a web developer who loves building products and web applications",
+      "I'm a web developer who loves building websites and web applications with the latest technology stack",
     description: [
       `I am a frontend developer with a passion to build dynamic products
               with the most updated technologies.Currently I am working as a
               freelance Developer.`,
-      ` Currently developing apps on React, Redux, Node Js, and
-              contributing to open source in my free time. New to Next.js,
-              Tailwindcss.`,
+      ` Currently developing apps with React Js, Next Js, Tailwind CSS, Redux, Node Js and
+              contributing to open source in my free time. Pro Tailwind CSS`,
     ],
     currentProject: "Netflix Clone",
     currentProjectUrl: "https://netflix-tailwind-react.web.app/",

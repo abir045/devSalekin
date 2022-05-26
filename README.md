@@ -1,8 +1,7 @@
-# My portfolio built with NExt Js and TailWind CSS
+# My Responsive portfolio built with Next Js and TailWind CSS
 
+[Live Usrl](https://dev-salekin.vercel.app/)
 
+![desktop_lightmode](./public/desktop_lightmode.png)
 
-
-Link [CryptoWorld](https://dev-salekin.vercel.app/) 
-
-![alt text](https://github.com/[abir045]/[devSalekin]/blob/[main]/image.jpg?raw=true)
+![desktop_lightmode](./public/desktop_darkmode.png)

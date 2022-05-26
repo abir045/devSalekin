@@ -9,6 +9,7 @@ import { useRouter } from "next/router";
 import userData from "../constants/data";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 
 const Navigation = () => {
   const router = useRouter();
@@ -27,7 +28,7 @@ const Navigation = () => {
 
   return (
     <div className="sticky top-0 z-20 py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
-      <div className="container px-4  lg:max-w-6xl flex items-center justify-between relative">
+      <div className="container px-4 w-full flex items-center justify-between relative">
         <div className="flex flex-row">
           <Link href="/">
             <a>
@@ -122,7 +123,16 @@ const Navigation = () => {
           </Link>
         </div>
         {/* social links + themeswitch */}
-        <div className="hidden sm:flex  space-x-6  items-center">
+        <div className="hidden sm:flex ml-12 space-x-4  items-center">
+          <a
+            href={userData.socialLinks.github}
+            className={"transition-colors hover:text-yellow-500"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillGithub size={30} />
+          </a>
+
           <a
             href={userData.socialLinks.instagram}
             target="_blank"
