@@ -3,6 +3,7 @@ import Image from "next/image";
 import profile from "../public/linkedin.jpg";
 import coder from "../public/programmer.png";
 import BackgroundAnimation from "./BackgroundAnimation";
+import dev from "../public/undraw.png";
 
 const About = () => {
   return (
@@ -35,7 +36,7 @@ const About = () => {
             src={coder}
             alt="Profile"
             priority={true}
-            className="rounded-full"
+            className="rounded-lg"
             width={300}
             height={300}
             placeholder="blur"
