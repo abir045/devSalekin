@@ -123,7 +123,7 @@ const Navigation = () => {
           </Link>
         </div>
         {/* social links + themeswitch */}
-        <div className="hidden sm:flex ml-12 space-x-4  items-center">
+        <div className="hidden sm:flex  space-x-4  items-center">
           <a
             href={userData.socialLinks.github}
             className={"transition-colors hover:text-yellow-500"}
