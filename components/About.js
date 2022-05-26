@@ -30,15 +30,15 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
+        <div className="flex-shrink-0 lg:mt-12 lg:px-4  mb-10">
           <BackgroundAnimation />
           <Image
             src={coder}
             alt="Profile"
             priority={true}
-            className="rounded-lg"
-            width={300}
-            height={300}
+            // className="rounded-lg"
+            width={250}
+            height={250}
             placeholder="blur"
           />
         </div>

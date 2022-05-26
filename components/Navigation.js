@@ -27,8 +27,8 @@ const Navigation = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-20 py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
-      <div className="px-4  w-full flex items-center justify-between relative">
+    <div className="sticky top-0 right-0 z-20 py-4 w-full sm:py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
+      <div className="px-4 flex items-center justify-between relative">
         <div className="flex flex-row">
           <Link href="/">
             <a>
@@ -168,7 +168,7 @@ const Navigation = () => {
 
           <ThemeSwitch />
         </div>
-        <div className="absolute right-0 sm:hidden " onClick={handleToggle}>
+        <div className="absolute right-2 sm:hidden " onClick={handleToggle}>
           {toggle ? (
             <AiOutlineClose size={40} />
           ) : (
@@ -183,7 +183,7 @@ const Navigation = () => {
               <a
                 className={`text-2xl  ${
                   router.asPath === "/projects"
-                    ? "text-gray-900 font-bold p-4 dark:text-gray-400"
+                    ? "text-gray-900 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
@@ -209,7 +209,7 @@ const Navigation = () => {
               <a
                 className={`text-2xl  ${
                   router.asPath === "/about"
-                    ? "text-gray-800 font-bold p-4 dark:text-gray-400"
+                    ? "text-gray-800 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
@@ -235,7 +235,7 @@ const Navigation = () => {
               <a
                 className={`text-2xl  ${
                   router.asPath === "/contact"
-                    ? "text-gray-800 font-bold p-4 dark:text-gray-400"
+                    ? "text-gray-800 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
