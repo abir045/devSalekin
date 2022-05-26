@@ -168,7 +168,7 @@ const Navigation = () => {
 
           <ThemeSwitch />
         </div>
-        <div className="absolute right-[3%] sm:hidden " onClick={handleToggle}>
+        <div className="absolute right-0 sm:hidden " onClick={handleToggle}>
           {toggle ? (
             <AiOutlineClose size={40} />
           ) : (
@@ -178,7 +178,7 @@ const Navigation = () => {
 
         {/* mobile menu */}
         {toggle && (
-          <div className="absolute flex flex-col items-center h-[300px] w-full opacity-90 p-8 space-y-8 mt-10 font-bold  right-0 top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
+          <div className="absolute flex flex-col items-center h-[300px] w-full opacity-90 p-8 space-y-8 mt-10 font-bold  mx-auto top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
             <Link href="/projects">
               <a
                 className={`text-2xl  ${
