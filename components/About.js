@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import profile from "../public/linkedin.jpg";
+import coder from "../public/programmer.png";
 import BackgroundAnimation from "./BackgroundAnimation";
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
 
           <div className="mt-6 text-gray-800 dark:text-white">
             <h4 className="text-2xl font-bold text-gray-400 lg:text-3xl dark:text-white">
-              React.Js-Node.Js-Next.Js
+              React.Js-Node.Js-Next.Js-Tailwind CSS
             </h4>
             {/* <p className="mb-4">
               I am a frontend developer with a passion to build dynamic products
@@ -31,12 +32,12 @@ const About = () => {
         <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
           <BackgroundAnimation />
           <Image
-            src={profile}
+            src={coder}
             alt="Profile"
             priority={true}
             className="rounded-full"
-            width={250}
-            height={250}
+            width={300}
+            height={300}
             placeholder="blur"
           />
         </div>
