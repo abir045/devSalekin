@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "../constants/data";
+import { SiTailwindcss } from "react-icons/si";
 
 export default function TechStack() {
   return (
@@ -12,7 +13,7 @@ export default function TechStack() {
       <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
         <div className="text-container max-w-6xl mx-auto pt-20">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-center text-2xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}. Currently working on{" "}
@@ -179,6 +180,8 @@ export default function TechStack() {
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
                 className="h-20 w-20 mx-4 my-4"
               />
+
+              <SiTailwindcss className="mx-4 my-4" size={80} />
             </div>
           </div>
         </div>

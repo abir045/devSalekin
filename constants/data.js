@@ -20,14 +20,14 @@ const userData = {
     },
 
     {
-      title: "Outlaws",
-      link: "https://github.com/abir045/Outlaws-Ecommerce",
-      imgUrl: "/outlaws.png",
+      title: "Frontend Mentor challenge Manage Landing Page ",
+      link: "https://frontend-mentor-manage-landing-react-tailwind.vercel.app/#",
+      imgUrl: "/manage_landing.png",
     },
     {
-      title: "Covid-19 Dashboard",
-      link: "https://abir045.github.io/covid19/",
-      imgUrl: "/covid-19.jpg",
+      title: "Netflix Clone with React and Tailwind CSS",
+      link: "https://github.com/abir045/Netflix_React_Tailwind",
+      imgUrl: "/netflix_clone.png",
     },
   ],
   about: {
@@ -41,8 +41,8 @@ const userData = {
               contributing to open source in my free time. New to Next.js,
               Tailwindcss.`,
     ],
-    currentProject: "CryptoWorld",
-    currentProjectUrl: "https://world-of-crypto.netlify.app/",
+    currentProject: "Netflix Clone",
+    currentProjectUrl: "https://netflix-tailwind-react.web.app/",
   },
   experience: [
     {
