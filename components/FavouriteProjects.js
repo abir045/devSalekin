@@ -56,7 +56,7 @@ export default function FavouriteProjects() {
           </a>
 
           <a
-            href="https://netflix-tailwind-react.web.app/"
+            href="https://github.com/abir045/Netflix_React_Tailwind"
             target="_blank"
             className="w-full block col-span-3  shadow-2xl"
           >
