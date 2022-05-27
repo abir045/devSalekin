@@ -16,7 +16,7 @@ export default function FavouriteProjects() {
           {/* Single card */}
 
           <a
-            href="https://world-of-crypto.netlify.app/"
+            href="https://github.com/abir045/cryptoApp"
             target="_blank"
             className="w-full block col-span-3  shadow-2xl"
           >
@@ -76,7 +76,7 @@ export default function FavouriteProjects() {
             </div>
           </a>
           <a
-            href="https://github.com/abir045/Outlaws-Ecommerce"
+            href="https://github.com/abir045/frontend-mentor-manage-landing-react-tailwind"
             target="_blank"
             className="w-full block col-span-3  shadow-2xl"
           >
