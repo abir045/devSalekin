@@ -10,6 +10,11 @@ import userData from "../constants/data";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
+import { GrProjects } from "react-icons/gr";
+import About from "../public/about.svg";
+import { FcAbout } from "react-icons/fc";
+import { SiAboutdotme } from "react-icons/si";
+import { AiFillContacts } from "react-icons/ai";
 
 const Navigation = () => {
   const router = useRouter();
@@ -181,12 +186,13 @@ const Navigation = () => {
           <div className="absolute flex flex-col items-center h-[300px] w-full opacity-90 p-8 space-y-8 mt-10 font-bold  mx-auto top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
             <Link href="/projects">
               <a
-                className={`text-2xl  ${
+                className={`text-2xl flex items-center   ${
                   router.asPath === "/projects"
                     ? "text-gray-900 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
+                <GrProjects className="mr-4" />
                 Projects
                 {router.asPath === "/projects" && (
                   <svg
@@ -207,12 +213,13 @@ const Navigation = () => {
             </Link>
             <Link href="/about">
               <a
-                className={`text-2xl  ${
+                className={`text-2xl flex items-center   ${
                   router.asPath === "/about"
                     ? "text-gray-800 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
+                <SiAboutdotme size={40} className="mr-4" />
                 About
                 {router.asPath === "/about" && (
                   <svg
@@ -233,12 +240,14 @@ const Navigation = () => {
             </Link>
             <Link href="/contact">
               <a
-                className={`text-2xl  ${
+                className={`text-2xl flex items-center  ${
                   router.asPath === "/contact"
                     ? "text-gray-800 font-bold p-4 dark:text-gray-400 hover:text-yellow-500"
                     : "text-gray-600 dark:text-gray-300 font-normal "
                 }`}
               >
+                {" "}
+                <AiFillContacts size={40} className="mr-4" />
                 Contact
                 {router.asPath === "/contact" && (
                   <svg
@@ -257,7 +266,7 @@ const Navigation = () => {
                 )}
               </a>
             </Link>
-            {/* <ThemeSwitch /> */}
+            <ThemeSwitch />
           </div>
         )}
       </div>
