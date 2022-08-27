@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="dark:bg-gray-800 w-full">
+      <main className="dark:bg-gray-800 w-full mx-[5%] ">
         <About />
         <FavouriteProjects />
         <TechStack />
