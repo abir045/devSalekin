@@ -15,7 +15,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/abir_salekin/"
               target="_blank"
-              className="text-base font-normal text-gray-600 dark:text-gray-300"
+              className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-yellow-500"
             >
               <AiFillInstagram size={30} />
             </a>

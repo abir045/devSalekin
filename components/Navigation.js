@@ -47,13 +47,13 @@ const Navigation = () => {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden sm:block">
+        <div className="space-x-8 hidden sm:block ">
           <Link href="/projects">
             <a
               className={`text-base  ${
                 router.asPath === "/projects"
-                  ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  ? "text-gray-800 font-bold dark:text-gray-400 "
+                  : "text-gray-600 dark:text-gray-300 font-normal hover:text-yellow-500 "
               }`}
             >
               Projects
@@ -79,7 +79,7 @@ const Navigation = () => {
               className={`text-base  ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  : "text-gray-600 dark:text-gray-300 font-normal hover:text-yellow-500"
               }`}
             >
               About
@@ -105,7 +105,7 @@ const Navigation = () => {
               className={`text-base  ${
                 router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"
-                  : "text-gray-600 dark:text-gray-300 font-normal "
+                  : "text-gray-600 dark:text-gray-300 font-normal hover:text-yellow-500"
               }`}
             >
               Contact
@@ -141,7 +141,7 @@ const Navigation = () => {
           <a
             href={userData.socialLinks.instagram}
             target="_blank"
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-yellow-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ const Navigation = () => {
           <a
             href={userData.socialLinks.linkedin}
             target="_blank"
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            className="text-base font-normal text-gray-600 dark:text-gray-300 hover:text-yellow-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
