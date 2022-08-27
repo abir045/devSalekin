@@ -175,9 +175,9 @@ const Navigation = () => {
         </div>
         <div className="absolute right-2 sm:hidden " onClick={handleToggle}>
           {toggle ? (
-            <AiOutlineClose size={40} />
+            <AiOutlineClose size={20} />
           ) : (
-            <GiHamburgerMenu size={40} />
+            <GiHamburgerMenu size={20} />
           )}
         </div>
 
