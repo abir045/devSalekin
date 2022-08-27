@@ -34,7 +34,7 @@ const Navigation = () => {
   return (
     <div className="sticky top-0 left-0 z-20 py-4 w-full sm:py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
       <div className="px-4 flex items-center  justify-between  relative">
-        <div className="flex flex-row w-full">
+        <div onClick={handleToggle} className="flex flex-row w-full">
           <Link href="/">
             <a>
               <h1 className="font-bold  text-2xl dark:text-gray-100">
@@ -183,7 +183,10 @@ const Navigation = () => {
 
         {/* mobile menu */}
         {toggle && (
-          <div className="absolute left-0 top-0 flex flex-col items-center h-[1/2] w-[110%] opacity-90 p-6 space-y-8 mt-10 font-bold drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden z-99">
+          <div
+            onClick={handleToggle}
+            className="absolute left-0 top-0 flex flex-col items-center h-[1/2] w-[110%] opacity-90 p-6 space-y-8 mt-10 font-bold drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden z-99"
+          >
             <Link href="/projects">
               <a
                 className={`text-2xl flex items-center   ${
