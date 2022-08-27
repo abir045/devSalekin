@@ -32,9 +32,9 @@ const Navigation = () => {
   }, []);
 
   return (
-    <div className="sticky top-0 right-0 z-20 py-4 w-full sm:py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
-      <div className="px-4 flex items-center justify-between relative">
-        <div className="flex flex-row">
+    <div className="sticky top-0 left-0 z-20 py-4 w-full sm:py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
+      <div className="px-4 flex items-center  justify-between  relative">
+        <div className="flex flex-row w-full">
           <Link href="/">
             <a>
               <h1 className="font-bold  text-2xl dark:text-gray-100">
@@ -173,7 +173,7 @@ const Navigation = () => {
 
           <ThemeSwitch />
         </div>
-        <div className="absolute right-2 sm:hidden " onClick={handleToggle}>
+        <div className="absolute right-0 sm:hidden " onClick={handleToggle}>
           {toggle ? (
             <AiOutlineClose size={20} />
           ) : (
@@ -183,7 +183,7 @@ const Navigation = () => {
 
         {/* mobile menu */}
         {toggle && (
-          <div className="absolute flex flex-col items-center h-[300px] w-full opacity-90 p-8 space-y-8 mt-10 font-bold  mx-auto top-0  drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden">
+          <div className="absolute left-0 top-0 flex flex-col items-center h-[1/2] w-[110%] opacity-90 p-6 space-y-8 mt-10 font-bold drop-shadow-lg bg-gray-200  text-gray-800 dark:bg-gray-800  sm:hidden z-99">
             <Link href="/projects">
               <a
                 className={`text-2xl flex items-center   ${
