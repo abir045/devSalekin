@@ -173,7 +173,7 @@ const Navigation = () => {
 
           <ThemeSwitch />
         </div>
-        <div className="absolute right-0 sm:hidden " onClick={handleToggle}>
+        <div className="absolute right-[2%] sm:hidden " onClick={handleToggle}>
           {toggle ? (
             <AiOutlineClose size={20} />
           ) : (
