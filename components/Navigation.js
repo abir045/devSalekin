@@ -34,7 +34,7 @@ const Navigation = () => {
   return (
     <div className="sticky top-0 left-0 z-20 py-4 w-full sm:py-4 bg-white md:py-6 md:mb-6 dark:bg-black">
       <div className="px-4 flex items-center  justify-between  relative">
-        <div onClick={handleToggle} className="flex flex-row w-full">
+        <div onClick={handleToggle} className="flex mx-[4%] flex-row w-full">
           <Link href="/">
             <a>
               <h1 className="font-bold  text-2xl dark:text-gray-100">
@@ -47,7 +47,7 @@ const Navigation = () => {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden sm:block ">
+        <div className="flex space-x-8 hidden sm:block ">
           <Link href="/projects">
             <a
               className={`text-base  ${
@@ -128,7 +128,7 @@ const Navigation = () => {
           </Link>
         </div>
         {/* social links + themeswitch */}
-        <div className="hidden sm:flex  space-x-4  items-center">
+        <div className="hidden sm:flex mx-[5%]  space-x-4  items-center">
           <a
             href={userData.socialLinks.github}
             className={"transition-colors hover:text-yellow-500"}
