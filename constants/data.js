@@ -8,6 +8,11 @@ const userData = {
   address: "Uttara, Dhaka, Bangladesh.",
   projects: [
     {
+      title: "coffeeroasters-subscription-site",
+      link: "https://coffeeroasters-abir045.vercel.app/",
+      imgUrl: "/Screenshot-coffeeroasters.png",
+    },
+    {
       title: "CryptoWorld",
       link: "https://world-of-crypto.netlify.app/",
       imgUrl: "/crypto.png",

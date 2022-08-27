@@ -14,6 +14,25 @@ export default function FavouriteProjects() {
         {/* Grid starts here */}
         <div className="grid lg:grid-cols-1 md:grid-cols-2 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
+          <a
+            href="https://github.com/abir045/coffeeroasters"
+            target="_blank"
+            className="w-full block col-span-3  shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/Screenshot-coffeeroasters.png"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                coffeeroasters
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                01
+              </h1>
+            </div>
+          </a>
 
           <a
             href="https://github.com/abir045/cryptoApp"
@@ -30,7 +49,7 @@ export default function FavouriteProjects() {
                 CryptoWorld
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                01
+                02
               </h1>
             </div>
           </a>
