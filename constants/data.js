@@ -13,6 +13,11 @@ const userData = {
       imgUrl: "/Screenshot-coffeeroasters.png",
     },
     {
+      title: "Photosnap Multipage Website",
+      link: "https://photosnap-abir045.vercel.app/",
+      imgUrl: "/photosnap-desktop.png",
+    },
+    {
       title: "CryptoWorld",
       link: "https://world-of-crypto.netlify.app/",
       imgUrl: "/crypto.png",

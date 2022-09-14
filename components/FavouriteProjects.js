@@ -55,6 +55,26 @@ export default function FavouriteProjects() {
           </a>
 
           <a
+            href="https://photosnap-abir045.vercel.app/"
+            target="_blank"
+            className="w-full block col-span-3 shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/photosnap-desktop.png"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                Photosnap Multipage website with React and Tailwind
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                03
+              </h1>
+            </div>
+          </a>
+
+          <a
             href="https://pearsonairportlimousines.com/"
             target="_blank"
             className="w-full block col-span-3 shadow-2xl"
@@ -69,7 +89,7 @@ export default function FavouriteProjects() {
                 Pearson Airport Limousines
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
+                04
               </h1>
             </div>
           </a>
@@ -90,7 +110,7 @@ export default function FavouriteProjects() {
                 Netflix Clone with React and Tailwind CSS
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                03
+                05
               </h1>
             </div>
           </a>
@@ -110,7 +130,7 @@ export default function FavouriteProjects() {
                 Frontend Mentor Manage Landing Page with Tailwind CSS
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                04
+                06
               </h1>
             </div>
           </a>
