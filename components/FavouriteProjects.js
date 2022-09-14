@@ -35,26 +35,6 @@ export default function FavouriteProjects() {
           </a>
 
           <a
-            href="https://github.com/abir045/cryptoApp"
-            target="_blank"
-            className="w-full block col-span-3  shadow-2xl"
-          >
-            <div className="relative overflow-hidden">
-              <img
-                src="/crypto.png"
-                alt="portfolio"
-                className="transform hover:scale-125 transition duration-2000 ease-out"
-              />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
-                CryptoWorld
-              </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
-                02
-              </h1>
-            </div>
-          </a>
-
-          <a
             href="https://photosnap-abir045.vercel.app/"
             target="_blank"
             className="w-full block col-span-3 shadow-2xl"
@@ -67,6 +47,26 @@ export default function FavouriteProjects() {
               />
               <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Photosnap Multipage website with React and Tailwind
+              </h1>
+              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+                02
+              </h1>
+            </div>
+          </a>
+
+          <a
+            href="https://github.com/abir045/cryptoApp"
+            target="_blank"
+            className="w-full block col-span-3  shadow-2xl"
+          >
+            <div className="relative overflow-hidden">
+              <img
+                src="/crypto.png"
+                alt="portfolio"
+                className="transform hover:scale-125 transition duration-2000 ease-out"
+              />
+              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+                CryptoWorld
               </h1>
               <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
                 03
